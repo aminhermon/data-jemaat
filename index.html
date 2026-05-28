@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FORM DATA JEMAAAT GEREJA AMIN HERMON</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /*  */
+    body {
+      background-image: url("https://www.image2url.com/r2/default/images/1779901325220-bf191ba5-ac01-4072-8d7e-231c12184e5e.jpeg") ;
+      background-size:cover;
+      background-position:center;
+      font-family: Arial;
+      color: #f2ff00;
+     
+    }
+      
+      
+      
+    
+    #form-container {
+      width: 500px;
+      margin: 10px auto; 
+      backdrop-filter: blur(7px);
+      padding: 20px;
+      border-radius: 10px;
+      border: 3px solid #f2ff00 ;
+    }
+    #form-container h2 {
+      text-align: center;
+      font-size: 20px;
+      color: #000000;
+      box-sizing: content-box;
+      background-color: #f2ff00;
+    }
+    #form-container input[type="text"], #form-container input[type="date"], #form-container input[type="tel"] {
+      width: 100%;
+      padding: 4px;
+      margin-bottom: 20px;
+      border: 3px solid #000000;
+      border-radius: 5px;
+    }
+
+    
+
+    #Jenis_Kelamin {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 20px;
+      border: 3px solid #000000;
+      border-radius: 5px;
+    }
+    
+    #form-container input[type="submit"] {
+      background-color: #1E90FF;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+    }
+    #form-container input[type="submit"]:hover {
+      background-color: #004B8D;
+    }
+
+    #Sektor {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 20px;
+      border: 3px solid #000000;
+      border-radius: 5px;
+    }
+    #footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 12px;
+      color: #f7f1f1;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="form-container">
+    <h2>FORM DATA JEMAAAT GEREJA AMIN HERMON</h2>
+    <!-- akses link script app -->
+    <form action="https://script.google.com/macros/s/AKfycbxoh_yy_qqOkhiisIUIYn1rwFpSmB_x8OgDZOiEt2QE2Kd_H30zGD4jAJYiC3wmVz6o/exec" method="post">
+    <!-- end akses  -->
+
+       
+     <label for="No_Induk_Jemaat">No Induk Jemaat:</label>
+      <input type="text" id="No_Induk_Jemaat" name="No_Induk_Jemaat" required>
+
+     <label for="Nama_Lengkap">Nama Lengkap:</label>  
+      <input type="text" id="Nama_Lengkap" name="Nama_Lengkap" required>
+
+     <label for="Jenis_Kelamin">Jenis Kelamin:</label>
+        <select id="Jenis_Kelamin" name="Jenis_Kelamin" required>
+        <option value="Laki-Laki">Laki-Laki</option>
+        <option value="Perempuan">Perempuan</option>
+        </select>
+
+      <label for="Tanggal_Lahir">Tanggal Lahir:</label>
+      <input type="date" id="Tanggal_Lahir" name="Tanggal_Lahir" required>
+
+      <label for="Tempat_Lahir">Tempat Lahir:</label>
+      <input type="text" id="Tempat_Lahir" name="Tempat_Lahir" required>
+
+      <label for="Alamat">Alamat:</label>
+      <input type="text" id="Alamat" name="Alamat" required>
+
+      <label for="Nomor_Telpon">Nomor Telpon:</label>
+      <input type="tel" id="Nomor_Telpon" name="Nomor_Telpon" pattern="[0-9]{10,12}" required>
+
+      <label for="Sektor">Sektor:</label>
+      <select id="Sektor" name="Sektor" required>
+        <option value="Maranatha">Sektor Maranatha</option>
+        <option value="Berkat">Sektor Berkat </option>
+        <option value="Imanuel">Sektor Imanuel</option>
+        <option value="Yordan">Sektor Yordan</option>
+        <option value="Sion">Sektor Sion</option>
+
+      <input type="submit" value="Simpan Data">
+    </form>
+  </div>
+
+  
+ 
+
+</body>
+</html>
